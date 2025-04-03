@@ -52,6 +52,10 @@ Scripts relevantes disponíveis no repositório:
 - `etl_data.sql`
 - `etl_fato.sql`
 
+Vale destacar que o código SQL utilizado no projeto não foi escrito manualmente do zero. Em vez disso, utilizamos um recurso nativo do próprio Oracle SQL Developer, que permite importar dados diretamente de planilhas para tabelas do banco de dados.
+
+Essa funcionalidade do SQL Developer gera automaticamente os scripts de inserção a partir dos dados da planilha, facilitando o processo de carga e garantindo consistência na estrutura do SQL. Esse recurso foi essencial para agilizar a implementação do processo de ETL e assegurar que os dados fossem transferidos corretamente para o Data Warehouse.
+
 ---
 
 ## 📊 Próximos Passos
